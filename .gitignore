@@ -1,7 +1,7 @@
-# Dataset — too large for git, teammates generate it locally
+# Dataset — too large for git,
 data/defactify_filtered/
 
-# HuggingFace's download cache (on your machine at ~/.cache)
+# HuggingFace's download cache
 .cache/huggingface/
 
 # Model weights — too large for git
@@ -9,7 +9,7 @@ checkpoints/*.pt
 checkpoints/*.pth
 Scripts/ViT/checkpoints/*.pt
 
-# Secret keys
+# HF Token
 .env
 
 # Jupyter clutter
