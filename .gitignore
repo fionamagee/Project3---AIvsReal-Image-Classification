@@ -1,0 +1,23 @@
+# Dataset — too large for git, teammates generate it locally
+data/defactify_filtered/
+
+# HuggingFace's download cache (on your machine at ~/.cache)
+.cache/huggingface/
+
+# Model weights — too large for git
+checkpoints/*.pt
+checkpoints/*.pth
+Scripts/ViT/checkpoints/*.pt
+
+# Secret keys
+.env
+
+# Jupyter clutter
+.ipynb_checkpoints/
+
+# Python clutter
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
